@@ -20,7 +20,8 @@ header {
     width: 306px;
     height: 33px;
     padding-top: 11px;
-    padding-left: 7px;
+    padding-right: 8px;
+    padding-left: 8px;
     background-color: #fff;
     border-radius:  5px;
     margin-top: 43px;
@@ -44,10 +45,26 @@ header {
     background-color: #fff;
 }
 
-/* .padpis {
+.lupa-button {
+    width: 38px;
+    height: 40px;
+}
+
+.ru-button {
+    width: 65px;
+    height: 40px;
+}
+
+ .padpis { 
     display: flex;
     justify-content: space-between;
-} */
+    align-items: center;
+} 
+
+.padpisat {
+    display: flex;
+
+}
 
 .padpis-link {
     width: 146px;
@@ -55,7 +72,7 @@ header {
     border-radius: 5px;
     padding-top: 11px;
     padding-right: 12px;
-    padding-bottom: 8px;
+    padding-bottom: -5px;
     text-decoration: none;
     background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
     color: #000;
@@ -189,16 +206,20 @@ header {
 }
 
 .site-between-link {
-    padding-top: 17px;
-    /* padding-right: 8px;
-    padding-bottom: 10px; */
-    padding-left: 60px;
     width: 264px;
     height: 42px;
+    padding-top: 16px;
+    padding-right: 8px;
+    padding-left: 60px;
     text-decoration: none;
     border-radius: 5px;
+    display: block;
     background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
     color: #fff;
+}
+
+.site-between-link a {
+    display: block;
 }
 
 .bell-icon {
@@ -227,6 +248,9 @@ header {
 }
 
 .site-main-small-info {
+    width: 386px;
+    height: 542px;
+    margin-bottom: 20px;
     background-color: #f6f6f9;
     border-radius: 5px;
 }
@@ -234,6 +258,10 @@ header {
 .site-main-small-info-link {
     text-decoration: none;
     color: #000;
+}
+
+.ucell-img {
+    margin-top: 20px;
 }
 
 .follow-link-second {
@@ -261,9 +289,9 @@ header {
     color: #fff;
 }
 
-.site-footer-top {
+/* .site-footer-top {
     display: flex;
-}
+} */
 
 .follow-link-thirty {
     text-decoration: none;
